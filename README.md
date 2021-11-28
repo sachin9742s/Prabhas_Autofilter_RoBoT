@@ -1,11 +1,11 @@
-# ANNA_BEN_BOT
+# PRABHAS_ROBOT
 Very Sempil Bot Auto Filter bot
-##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+𝑨𝑵𝑵𝑵𝑨-𝑩𝑬𝑵-𝑭𝑰𝑳𝑻𝑬𝑹-𝑩𝑶𝑻!;created+by+𝑻𝑬𝑨𝑴+𝑨𝑵𝑵𝑨+𝑩𝑬𝑵!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
+##[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+𝑷𝒓𝒆𝒃𝒉𝒂𝒔-𝑭𝒊𝒍𝒕𝒆𝒓-𝑹𝒐𝒃𝒐𝒕!;created+by+𝑺𝒂𝒄𝒉𝒊𝒏+𝑺!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
 </p>
 # 𝐂𝐋𝐈𝐂𝐊 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘👇👇👇
 
 
-[![Deploy](https://telegra.ph/file/87fd3f1437dbd06644b20.jpg)](https://heroku.com/deploy?template=https://github.com/Lallu-lallus/anna-ben-repo)
+[![Deploy](https://telegra.ph/file/a95a80de40cbfdb9da8e4.jpg)](https://heroku.com/deploy?template=https://github.com/sachin9742s/Prabhas_Robot)
 
 - [x] Auto Filter
 - [x] Manuel Filter
@@ -13,7 +13,7 @@ Very Sempil Bot Auto Filter bot
 - [x] Admin Commands
 - [x] Broadcast
 - [x] Index
-- [x] IMDB search
+- [x] IMDB സെർച്ച്‌
 - [x] Fun mode
 - [x] Inline Search
 - [x] Random pics
@@ -48,8 +48,8 @@ Very Sempil Bot Auto Filter bot
 
 
 
-###ANNA BEN REPO
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lallu-lallus/anna-ben-repo)
+###Prabhas_Robot
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sachin9742s/Prabhas_Robot)
 ### Hard Way
 
 ```bash
@@ -76,8 +76,8 @@ Check [`sample_info.py`](sample_info.py) before editing [`info.py`](info.py) fil
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/1G1XwEOnxxo)
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com).
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
@@ -108,11 +108,11 @@ logger - Get log file
 
 
 ## Support
-Contact Me On [Telegram](https://t.me/Pro_editor_tg)
+Contact Me On [Telegram](https://t.me/sachin_official_admin)
 
-[Update Channel](https://t.me/Team_annaben)
+[Update Channel](https://t.me/KR_ROCKERS_DVD_WEB_OTT_MOVIES)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
 ## credit 🤠
-https://t.me/PANDITHAN_SIR
+https://t.me/sachin_official_admin
