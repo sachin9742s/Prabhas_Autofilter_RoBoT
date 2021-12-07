@@ -5,7 +5,6 @@ import math
 import os
 import time
 
-import aiofiles
 import aiohttp
 import wget
 from pyrogram import Client, filters
