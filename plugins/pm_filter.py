@@ -462,8 +462,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ 1', url='https://t.me/KicchaRequest'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/RockyRequest')
             ],[
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat='')
-            ],[
             InlineKeyboardButton('😎 𝐚𝐝𝐦𝐢𝐧 ', callback_data='admin')
             ],[
             InlineKeyboardButton('🗳️ 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 ', callback_data='coct'),
