@@ -1,5 +1,7 @@
 import os
 
+import re
+
 import time
 
 class Config(object):
@@ -55,9 +57,38 @@ class Config(object):
     DELETE_ALL_CMD = os.environ.get("DELETE_ALL_CMDD", "delall")
 
     CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "connect")
+    
+    SESSION = os.environ.get("SESSION_STRING", "")
+   
+    CHAT = os.environ.get("CHAT", "")
+
+    LOG_GROUP = os.environ.get("LOG_GROUP", "")
+    if LOG_GROUP:
+        LOG_GROUP = int(LOG_GROUP)
+    else:
+        LOG_GROUP = None
+
+    ADMIN = os.environ.get("ADMINS", "1815494853")
+
+    ADMINS = [int(admin) if re.search('^\d+$', admin) else admin for admin in (ADMIN).split()]
+    
+   
+    
 
     DISCONNECT_COMMAND = os.environ.get("DISCONNECT_COMMANDD", "disconnect")
 
     # To record start time of bot
 
     BOT_START_TIME = time.time()
+
+
+
+
+    STREAM_URL = os.environ.get("STREAM_URL", "https://radioindia.net/radio/hungamanow/icecast.audio")
+
+
+    
+   
+
+   
+  
