@@ -22,7 +22,8 @@ class script(object):
 - 𝑰 𝒂𝒎  𝒂 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
 - ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a href="https://t.me/c/1735050898/2"> 𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘 </a>
 
-𝗠𝗔𝗦𝗧𝗘𝗥: <a href="https://t.me/sachin_official_admin"> Sαƈԋιɳ ʂ </a>"""
+𝗠𝗔𝗦𝗧𝗘𝗥: 
+<a href="https://t.me/sachin_official_admin"> Sαƈԋιɳ ʂ </a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 
@@ -34,7 +35,7 @@ Just for a rasam😂"""
 ➡️ /covid <code>(countryname)</code> <b>you can find a corona information of every country</b>
 
 ➡️ <b>example</b> : - /covid India"""
-    STICKER_TXT ="""<b>COMMAND /stickerid\n𝖨𝖿 𝖸𝗈𝗎 𝖭𝖾𝖾𝖽 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗆 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 𝖢𝗅𝗂𝖼𝗄 /stickerid 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗍𝗂𝖼𝗄𝖾𝗋 𝖨𝖽 (𝖱𝖾𝗉𝗅𝗒 𝖶𝗂𝗍𝗁 𝖲𝗍𝗂𝖼𝗄𝖾𝗋)</b>"""
+    STISTICKER_TXT ="""<b>Hey Buddy Send me a sticker and then I give U the sticker id (No Commands)</b>"""
     SONG_TXT ="""<b>SONG MODULE</b>
 Song Download
 Song Download Module, For Those Who Love Music
