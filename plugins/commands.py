@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/KR_ROCKERS_DVD_WEB_OTT_MOVIES')
+                InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/Kiccha_OTT')
             ],
             [
                 InlineKeyboardButton('𝙷𝙴𝙻𝙿', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,16 +38,13 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Prabhas_autofilterBOT?startgroup=true')
-            ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ 1', url='https://t.me/KicchaRequest'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/RockyRequest')
-            ],[
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await message.reply_chat_action("typing")
+        m=await message.reply_sticker("CAACAgUAAxkBAAPLYhmLeQjtiqPZJEHOFh4KFOjbWzcAAvgDAAKfRIlXnd2oxpsLJeYeBA")
+        await asyncio.sleep(1)
+        await m.delete()
+        await message.reply_chat_action("typing")
         await message.reply_photo(
             photo=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -82,10 +79,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Prabhas_autofilterBOT?startgroup=true')
             ],[
-            InlineKeyboardButton('ɢʀᴏᴜᴘ 1', url='https://t.me/KicchaRequest'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/RockyRequest')
-            ],[
-            InlineKeyboardButton('🔎 sᴇᴀʀᴄʜ 🔍', switch_inline_query_current_chat='')
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -216,4 +211,3 @@ async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
     await message.answer()
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
-
