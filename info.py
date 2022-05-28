@@ -1,5 +1,7 @@
 import re
 from os import environ
+from pytgcalls import PyTgCalls
+from pyrogram import Client, filters
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
@@ -38,6 +40,7 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+GROUP_MODE = is_enabled((environ.get('GROUP_MODE', "True")), True)
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
@@ -46,7 +49,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","<b>Query: {query}</b> \n‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -60,3 +63,16 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM")
 LOG_STR += f"Your Currect IMDB template is {IMDB_TEMPLATE}"
+
+contact_filter = filters.create(
+    lambda _, __, message:
+    (message.from_user and message.from_user.is_contact) or message.outgoing
+)
+if GROUP_MODE==('True','true'):
+    grp = True
+else:
+    grp = False
+
+GRPPLAY = grp
+bot = Client(SESSION, API_ID, API_HASH, plugins=dict(root="plugins"))
+call_py = PyTgCalls(bot)
