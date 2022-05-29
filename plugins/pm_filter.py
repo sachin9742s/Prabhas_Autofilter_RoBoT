@@ -411,23 +411,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[KR.OTT] {title}</code>\n\n⚠️ <i>This file will be deleted from here within 5 minute as it has copyright ... !!!</i>\n\n<i><b>⚡ Powered by {query.message.chat.title}</b></i>',
+                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[KR.OTT] {title}</code>\n\n⚠️ <i>𝐓𝐡𝐢𝐬 𝐟𝐢𝐥𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐨𝐫𝐦 𝐡𝐞𝐫𝐞 𝐰𝐢𝐭𝐡 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐚𝐬 𝐢𝐭 𝐡𝐚𝐬 𝐜𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭...!!!</i>\n\n<i><b>⚡ Powered by {query.message.chat.title}</b></i>',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
                 f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
                 f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[KR.OTT] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>\n\n'
-                f'<b>⚠️ This file will be deleted from here within 5 minute as it has copyright ... !!!<b>',
+                f'<b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>',
                 True,
                 'html',
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📥 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖫𝗂𝗇𝗄 📥 ', url = msg.link)
+                            InlineKeyboardButton('📥 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ 𝖢𝖺𝗇'𝗍 𝖠𝖼𝖼𝖾𝗌𝗌 ❓ 𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾 ⚠️", url=f'https://t.me/+7Cd6Sekyf6wyZjg1')
+                            InlineKeyboardButton("⚠️ 𝐂𝐚𝐧'𝐭 𝐀𝐜𝐜𝐞𝐬𝐬 ❓ 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 ⚠️", url=f'https://t.me/+7Cd6Sekyf6wyZjg1')
                         ]
                     ]
                 )
