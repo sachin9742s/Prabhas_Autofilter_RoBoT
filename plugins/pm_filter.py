@@ -411,7 +411,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[KR.OTT] {title}</code>\n\n⚠️ <i>[𝐓𝐡𝐢𝐬 𝐟𝐢𝐥𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐨𝐫𝐦 𝐡𝐞𝐫𝐞 𝐰𝐢𝐭𝐡 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐚𝐬 𝐢𝐭 𝐡𝐚𝐬 𝐜𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭...!!!](https://t.me/c/1555030497/75)</i>\n\n<i><b>⚡ Powered b:- y {query.message.chat.title}</b></i>\n\n╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙊𝙏𝙏](t.me/Kiccha_OTT)\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙍𝙚𝙦𝙪𝙚𝙨𝙩](t.me/KicchaRequest)\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝',
+                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[KR.OTT] {title}</code>\n\n⚠️ <i>[𝐓𝐡𝐢𝐬 𝐟𝐢𝐥𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐨𝐫𝐦 𝐡𝐞𝐫𝐞 𝐰𝐢𝐭𝐡 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐚𝐬 𝐢𝐭 𝐡𝐚𝐬 𝐜𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭...!!!](https://t.me/c/1555030497/75)</i>\n\n<i><b>⚡ Powered b:- {query.message.chat.title}</b></i>\n\n╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙊𝙏𝙏](t.me/Kiccha_OTT)\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙍𝙚𝙦𝙪𝙚𝙨𝙩](t.me/KicchaRequest)\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
