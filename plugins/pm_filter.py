@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
                 f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[KR.OTT] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>\n\n'
-                f'<b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>'
+                f'<b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>\n\n'
                 f'<b>╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝\n\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ',
                 True,
                 'html',
@@ -473,10 +473,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/dqautofl_bot?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Prabhas_autofilterBOT?startgroup=true')
             ],[
             InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/EDIT_REPO')
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/Kiccha_OTT')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
