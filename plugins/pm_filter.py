@@ -142,6 +142,8 @@ async def next_page(bot, query):
     btn.insert(2,
         [
             InlineKeyboardButton(text="🤖 Support Group 🤖", url=f"https://t.me/KicchaRequest")
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
