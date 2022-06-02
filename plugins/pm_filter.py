@@ -108,7 +108,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🚀[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -139,6 +139,9 @@ async def next_page(bot, query):
             InlineKeyboardButton(f'💫 Tips', 'tips')
         ]
     )
+    btn.insert(2,
+        [
+            InlineKeyboardButton(text="🤖 Support Group 🤖", url=f"https://t.me/KicchaRequest")
 
     if 0 < offset <= 10:
         off_set = 0
@@ -158,6 +161,10 @@ async def next_page(bot, query):
                 InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
+            ],
+            [
+        btn.append(
+                InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/Prabhas_autofilterBOT")
             ],
         )
     try:
