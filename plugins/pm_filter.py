@@ -165,11 +165,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-            [
-        btn.append(
-                InlineKeyboardButton(text="🤖 CHECK MY PM 🤖", url=f"https://telegram.dog/Prabhas_autofilterBOT")
-            ],
-        )
     try:
         await query.edit_message_reply_markup( 
             reply_markup=InlineKeyboardMarkup(btn)
