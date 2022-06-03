@@ -555,9 +555,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "about":
-        await query.message.delete()
-        await query.message.reply_sticker(
-            'CAACAgQAAxkBAAECr4hiKhTf1qJEeLctIJCsrxk2k5BPmQADEgAC4oetNCxmTn2LSYe8HgQ',
         buttons= [[
             InlineKeyboardButton('status', callback_data='stats'),
             InlineKeyboardButton('source', callback_data='source')
