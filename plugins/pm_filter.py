@@ -108,7 +108,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⌨[{get_size(file.file_size)}] ⎙{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -136,12 +136,14 @@ async def next_page(bot, query):
     btn.insert(1,
         [
             InlineKeyboardButton(f'📁 Files: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'sᴇʀɪᴇs', 'dupe'),
             InlineKeyboardButton(f'💫 Tips', 'tips')
         ]
     )
     btn.insert(2,
         [
-            InlineKeyboardButton(text="🤖 Support Group 🤖", url=f"https://t.me/KicchaRequest")
+            InlineKeyboardButton(text="🤖 Support 🤖", url=f"https://t.me/+3wLXc3f1anM3NTU1")
         ]
     )
 
@@ -153,16 +155,16 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("≪≪≪", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("≫≫≫", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("≪≪≪", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
-                InlineKeyboardButton("≫≫≫", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -486,7 +488,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/Prabhas_autofilterBOT?startgroup=true')
+            InlineKeyboardButton('ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ', url='http://t.me/Prabhas_autofilterBOT?startgroup=true')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -539,9 +541,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▢▢▢▢▢▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -999,7 +1001,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⌨[{get_size(file.file_size)}] ⎙{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -1027,12 +1029,14 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(1,
         [
             InlineKeyboardButton(f'📁 Files: {len(files)}', 'dupe'),
+            InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'dupe'),
+            InlineKeyboardButton(f'sᴇʀɪᴇs', 'dupe'),
             InlineKeyboardButton(f'💫 Tips', 'tips')
         ]
     )
     btn.insert(2,
         [
-            InlineKeyboardButton(text="🤖 Support Group 🤖", url=f"https://t.me/KicchaRequest")
+            InlineKeyboardButton(text="🤖 Support 🤖", url=f"https://t.me/+3wLXc3f1anM3NTU1")
         ]
     )
 
@@ -1041,7 +1045,7 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="≫≫≫",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝙽𝙴𝚇𝚃",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
