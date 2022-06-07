@@ -521,7 +521,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='font')
-            InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data=f'next_{req}_{key}_{n_offset}')
             ],[
             InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purge'),
             InlineKeyboardButton('𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃', callback_data='restric'),
@@ -533,7 +533,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon'),
-            InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data=f'next_{req}_{key}_{n_offset}')
             ],[
             InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴', callback_data='alive'),
             InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='song'),
@@ -544,7 +544,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝙸𝙳', callback_data='stickerid')
             ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
-            InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
+            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data=f'next_{req}_{key}_{n_offset}')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▢▢▢▢▢▢▢")
