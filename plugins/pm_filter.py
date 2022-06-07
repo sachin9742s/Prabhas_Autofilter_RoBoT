@@ -519,8 +519,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙸𝙽𝙵𝙾', callback_data='info'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='paste')
             ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
+            InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='font')
             InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
             ],[
             InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purge'),
@@ -531,8 +531,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun')
             ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
+            InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon'),
             InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
             ],[
             InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴', callback_data='alive'),
@@ -543,12 +543,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝙾𝚁𝙾𝙽𝙰', callback_data='corona'),
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝙸𝙳', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='')
-            ],[
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start'),
             InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
-            ],[
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▢▢▢▢▢▢▢")
