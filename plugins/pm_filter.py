@@ -519,10 +519,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙸𝙽𝙵𝙾', callback_data='info'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚃𝙴', callback_data='paste')
             ],[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='back'),
-            InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='font'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
-        ]]
+            InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='font')
+            ],[
             InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purge'),
             InlineKeyboardButton('𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃', callback_data='restric'),
             InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷', callback_data='search')
@@ -531,10 +529,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚆𝙷𝙾𝙸𝚂', callback_data='whois'),
             InlineKeyboardButton('𝙵𝚄𝙽', callback_data='fun')
             ],[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='back'),
-            InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
-        ]]
+            InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon')
+            ],[
             InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴', callback_data='alive'),
             InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='song'),
             InlineKeyboardButton('𝙹𝚂𝙾𝙽', callback_data='json')
@@ -543,8 +539,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝙾𝚁𝙾𝙽𝙰', callback_data='corona'),
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝙸𝙳', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='back'),
-            InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
+            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▢▢▢▢▢▢▢")
