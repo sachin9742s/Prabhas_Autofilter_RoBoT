@@ -522,7 +522,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='back'),
             InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data='font'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
-            ],[
+        ]]
             InlineKeyboardButton('𝙿𝚄𝚁𝙶𝙴', callback_data='purge'),
             InlineKeyboardButton('𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃', callback_data='restric'),
             InlineKeyboardButton('𝚂𝙴𝙰𝚁𝙲𝙷', callback_data='search')
@@ -534,7 +534,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='back'),
             InlineKeyboardButton('𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon'),
             InlineKeyboardButton('𝙽𝙴𝚇𝚃', callback_data='next')
-            ],[
+        ]]
             InlineKeyboardButton('𝙰𝙻𝙸𝚅𝙴', callback_data='alive'),
             InlineKeyboardButton('𝚂𝙾𝙽𝙶', callback_data='song'),
             InlineKeyboardButton('𝙹𝚂𝙾𝙽', callback_data='json')
