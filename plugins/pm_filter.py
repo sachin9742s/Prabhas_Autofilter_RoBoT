@@ -544,7 +544,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝙸𝙳', callback_data='stickerid')
             ],[
             InlineKeyboardButton('𝙵𝙾𝙽𝚃', callback_data=''),
-            InlineKeyboardButton(𝙲𝙰𝚁𝙱𝙾𝙽', callback_data='carbon')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton(f"{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
