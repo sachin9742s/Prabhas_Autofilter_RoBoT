@@ -21,7 +21,7 @@ Currencies : ```{country.currencies()}```
 Residence : ```{country.demonym()}```
 Timezone : ```{country.timezones()}```
 
-Made by @DK_BOTx """
+Made by @sachin_official_admin """
     country_name = country.name()
     country_name = country_name.replace(" ", "+")
     reply_markup=InlineKeyboardMarkup(
