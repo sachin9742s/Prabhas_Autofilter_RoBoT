@@ -533,14 +533,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝙾𝚁𝙾𝙽𝙰', callback_data='corona'),
             InlineKeyboardButton('𝚂𝚃𝙸𝙲𝙺𝙴𝚁𝙸𝙳', callback_data='stickerid')
             ],[
-            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin')
-            ],[
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -562,9 +560,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -578,9 +576,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -594,9 +592,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -609,9 +607,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -624,9 +622,9 @@ parse_mode='html'
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -639,9 +637,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -654,9 +652,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -670,9 +668,9 @@ parse_mode='html'
             InlineKeyboardButton('Buttons »', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -686,9 +684,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -701,9 +699,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -716,9 +714,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='manualfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -732,9 +730,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='auto_manual')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -754,9 +752,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -770,9 +768,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='filter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -785,9 +783,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -802,9 +800,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -818,9 +816,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -834,9 +832,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -850,9 +848,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -867,9 +865,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('lang codes', url='https://cloud.google.com/translate/docs/languages')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -883,9 +881,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -899,9 +897,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -915,9 +913,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -931,9 +929,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         await query.message.edit_text(
@@ -948,9 +946,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Refresh ⧖', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▢▢▢▢▢▢▢▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▢▢▢▢▢▢▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣")
+        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
+        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
+        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
         await asyncio.sleep(1)
         await o.delete()
         total = await Media.count_documents()
