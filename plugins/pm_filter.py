@@ -536,11 +536,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_text("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
