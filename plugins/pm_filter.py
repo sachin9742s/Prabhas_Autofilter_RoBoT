@@ -558,11 +558,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             disable_web_page_preview=True,
@@ -574,11 +572,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.ALIVE_TXT,
             reply_markup=reply_markup,
@@ -590,11 +586,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.WHOIS_TXT,
             reply_markup=reply_markup,
@@ -605,11 +599,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.SOURCE_TXT,
             disable_web_page_preview=True,
@@ -620,11 +612,9 @@ parse_mode='html'
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.CORONA_TXT,
             reply_markup=reply_markup,
@@ -635,11 +625,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.STICKER_TXT,
             reply_markup=reply_markup,
@@ -650,11 +638,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.SONG_TXT,
             reply_markup=reply_markup,
@@ -666,11 +652,9 @@ parse_mode='html'
             InlineKeyboardButton('Buttons »', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.MANUALFILTER_TXT,
             disable_web_page_preview=True,
@@ -682,11 +666,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.JSON_TXT,
             reply_markup=reply_markup,
@@ -697,11 +679,9 @@ parse_mode='html'
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.PIN_TXT,
             reply_markup=reply_markup,
@@ -712,11 +692,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='manualfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.BUTTON_TXT,
             disable_web_page_preview=True,
@@ -728,11 +706,9 @@ parse_mode='html'
             InlineKeyboardButton('« Back', callback_data='auto_manual')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.AUTOFILTER_TXT,
             disable_web_page_preview=True,
@@ -750,11 +726,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.AUTO_MANUAL_TXT,
             disable_web_page_preview=True,
@@ -766,11 +740,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='filter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.FUN_TXT,
             reply_markup=reply_markup,
@@ -781,11 +753,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.CONNECTION_TXT,
             disable_web_page_preview=True,
@@ -798,11 +768,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.PASTE_TXT,
             disable_web_page_preview=True,
@@ -814,11 +782,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.TGRAPH_TXT,
             disable_web_page_preview=True,
@@ -830,11 +796,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.INFO_TXT,
             disable_web_page_preview=True,
@@ -846,11 +810,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.SEARCH_TXT,
             disable_web_page_preview=True,
@@ -863,11 +825,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('lang codes', url='https://cloud.google.com/translate/docs/languages')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.GTRANS_TXT,
             disable_web_page_preview=True,
@@ -879,11 +839,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.ADMIN_TXT,
             disable_web_page_preview=True,
@@ -895,11 +853,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.ZOMBIES_TXT,
             disable_web_page_preview=True,
@@ -911,11 +867,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.PURGE_TXT,
             disable_web_page_preview=True,
@@ -927,11 +881,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         await query.message.edit_text(
             text=script.RESTRIC_TXT,
             disable_web_page_preview=True,
@@ -944,11 +896,9 @@ InlineKeyboardButton('manual', callback_data='manualfilter')
             InlineKeyboardButton('Refresh ⧖', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await query.message.reply_text("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▢▢")
-        n=await m.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▢")
-        o=await n.edit("𝗟𝗼𝗮𝗱𝗶𝗻𝗴▣▣▣")
+        m=await query.message.reply_sticker("CAACAgUAAxkBAAINKGKk1Uuse8jn21EoS3N1RBpuNbSgAAI1AAPhAAEBG9ZZhQYkQD2hJAQ")
         await asyncio.sleep(1)
-        await o.delete()
+        await m.delete()
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
