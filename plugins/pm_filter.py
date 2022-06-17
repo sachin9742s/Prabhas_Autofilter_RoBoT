@@ -462,6 +462,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if CUSTOM_FILE_CAPTION:
             try:
                 f_caption=CUSTOM_FILE_CAPTION.format(m = query.from_user.mention,lallus = lallus,file_name=title, file_size=size, file_caption=f_caption)
+                buttons = [[ InlineKeyboardButton("ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ]]
             except Exception as e:
                 logger.exception(e)
                 f_caption=f_caption
