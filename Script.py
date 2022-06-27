@@ -1,11 +1,11 @@
 class script(object):
-    START_TXT = """<u>Hello 👋 {}. 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌</u>
+    START_TXT = """<u><i>Hello 👋 {}. 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌</i></u>
 
-<u>I'm <p>𝗣𝗿𝗮𝗯𝗵𝗮𝘀</p> or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</u>
+<u><i>I'm <p>𝗣𝗿𝗮𝗯𝗵𝗮𝘀</p> or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</i></u>
 
-<u>I Can Provide Movies In Your Group, It Very Easy Way Just Add Me To Your Group And Make Me Admin In Your Group, Thars all I'll Provide Movies From Your Group.</u>
+<u><i>I Can Provide Movies In Your Group, It Very Easy Way Just Add Me To Your Group And Make Me Admin In Your Group, Thars all I'll Provide Movies From Your Group.</i></u>
 
-<u>To Use Me In PM Use The /connect Command In Your Group And You Can Modify AutoFilter Settings & Other Feature Settings</u>
+<u><i>To Use Me In PM Use The /connect Command In Your Group And You Can Modify AutoFilter Settings & Other Feature Settings</i></u>
 """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝘏𝘦𝘳𝘦 𝘐𝘴 𝘛𝘩𝘦 𝘏𝘦𝘭𝘱 𝘍𝘰𝘳 𝘔𝘺 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴."""
