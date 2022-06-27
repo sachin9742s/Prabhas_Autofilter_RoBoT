@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>Hello 👋 {}. 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌</b>
 
-<b>I'm 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</b>
+<b>I'm <s>𝗣𝗿𝗮𝗯𝗵𝗮𝘀</s> or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</b>
 
 <b>I Can Provide Movies In Your Group, It Very Easy Way Just Add Me To Your Group And Make Me Admin In Your Group, Thars all I'll Provide Movies From Your Group.</b>
 
@@ -262,8 +262,8 @@ This module allows you to do that easily, by exposing some common actions, so ev
     STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
 <b>Total Users:</b> <code>{}</code>
 <b>Total Chats:</b> <code>{}</code>
-<b>Used Storage:</b> <code>{}</code> MB
-<b>Free Storage:</b> <code>{}</code> MB"""
+<b>Used Storage:</b> <code>{}</code>
+<b>Free Storage:</b> <code>{}</code>"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
