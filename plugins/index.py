@@ -27,7 +27,7 @@ async def index_files(bot, query):
         return await query.answer('Wait until previous process complete.', show_alert=True)
     msg = query.message
 
-    await query.answer('Processing...⏳', show_alert=True)
+    await query.answer('𝘗𝘳𝘰𝘤𝘦𝘴𝘴𝘪𝘯𝘨...⧖', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(int(from_user), f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.', reply_to_message_id=int(lst_msg_id))
     await msg.edit(
@@ -58,10 +58,10 @@ async def send_for_index(bot, message):
     if message.from_user.id in ADMINS:
         buttons = [
             [
-                InlineKeyboardButton('Yes', callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')
+                InlineKeyboardButton('𝘠𝘦𝘴', callback_data=f'index#accept#{chat_id}#{last_msg_id}#{message.from_user.id}')
             ],
             [
-                InlineKeyboardButton('close', callback_data='close_data'),
+                InlineKeyboardButton('𝘊𝘭𝘰𝘴𝘦', callback_data='close_data'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
