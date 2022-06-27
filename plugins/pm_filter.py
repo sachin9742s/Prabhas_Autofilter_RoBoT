@@ -144,14 +144,6 @@ async def next_page(bot, query):
             InlineKeyboardButton(text="🤖 Support 🤖", url=f"https://t.me/+3wLXc3f1anM3NTU1")
         ]
     )
-    await query.answer('Check Out The Chat',)
-            await asyncio.sleep(600)
-            await msg1.delete()
-            await msg.delete()
-            del msg1, msg
-        except Exception as e:
-            logger.exception(e, exc_info=True)
-            await query.answer(f"Encountering Issues", True)
 
     if 0 < offset <= 5:
         off_set = 0
@@ -173,6 +165,14 @@ async def next_page(bot, query):
                 InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
+        await query.answer('Check Out The Chat',)
+            await asyncio.sleep(600)
+            await msg1.delete()
+            await msg.delete()
+            del msg1, msg
+        except Exception as e:
+            logger.exception(e, exc_info=True)
+            await query.answer(f"Encountering Issues", True)
     try:
         await query.edit_message_reply_markup( 
             reply_markup=InlineKeyboardMarkup(btn)
@@ -988,14 +988,6 @@ async def auto_filter(client, msg, spoll=False):
             InlineKeyboardButton(text="🤖 Support 🤖", url=f"https://t.me/+3wLXc3f1anM3NTU1")
         ]
     )
-    await query.answer('Check Out The Chat',)
-            await asyncio.sleep(600)
-            await msg1.delete()
-            await msg.delete()
-            del msg1, msg
-        except Exception as e:
-            logger.exception(e, exc_info=True)
-            await query.answer(f"Encountering Issues", True)
 
     if offset != "":
         key = f"{message.chat.id}-{message.message_id}"
