@@ -1,7 +1,7 @@
 class script(object):
     START_TXT = """<b>Hello 👋 {}. 𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌</b>
 
-<b>I'm <s>𝗣𝗿𝗮𝗯𝗵𝗮𝘀</s> or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</b>
+<b>I'm <p>𝗣𝗿𝗮𝗯𝗵𝗮𝘀</p> or You Can Call me as  <a href="https://t.me/Prabhas_autofilterBOT"> 𝗣𝗿𝗮𝗯𝗵𝗮𝘀 𝗔𝘂𝘁𝗼𝗳𝗶𝗹𝘁𝗲𝗿 𝗯𝗼𝘁</a> 😍.</b>
 
 <b>I Can Provide Movies In Your Group, It Very Easy Way Just Add Me To Your Group And Make Me Admin In Your Group, Thars all I'll Provide Movies From Your Group.</b>
 
