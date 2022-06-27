@@ -150,4 +150,4 @@ async def index_files_to_db(lst_msg_id, chat, msg, bot):
             logger.exception(e)
             await msg.edit(f'Error: {e}')
         else:
-            await msg.edit(f'Total <code>{total_files}</code> Saved To DataBase!')
+            await msg.edit(f'𝗧𝗼𝘁𝗮𝗹 <b>{total_files}</b> 𝗦𝗮𝘃𝗲𝗱 𝗧𝗼 𝗙𝗶𝗹𝗲𝘀!')
