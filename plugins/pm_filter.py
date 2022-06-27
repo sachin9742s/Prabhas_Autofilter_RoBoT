@@ -165,14 +165,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton("𝙽𝙴𝚇𝚃", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        await query.answer('Check Out The Chat',)
-            await asyncio.sleep(600)
-            await msg1.delete()
-            await msg.delete()
-            del msg1, msg
-        except Exception as e:
-            logger.exception(e, exc_info=True)
-            await query.answer(f"Encountering Issues", True)
     try:
         await query.edit_message_reply_markup( 
             reply_markup=InlineKeyboardMarkup(btn)
