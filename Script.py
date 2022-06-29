@@ -272,13 +272,13 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
     LOG_TEXT_G = """#NewGroup
-Group = {}(<b>{}</b>)
-Total Members = <b>{}</b>
+Group = {}(<code>{}</code>
+Total Members = <code>{}</code>
 Added By - {}
-"""
+Group Link - {link.invite_link}"""
 
     LOG_TEXT_P = """#NewUser
-ID - <b>{}</b>
+ID - <code>{}</code>
 Name - {}"""
 
     ZOMBIES_TXT = """Help: <b>Zombies</b>
